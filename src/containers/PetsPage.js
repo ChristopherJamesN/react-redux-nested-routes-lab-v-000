@@ -14,7 +14,9 @@ class PetsPage extends Component {
 
   render() {
     return (
-      <div>Pets Page</div>
+      <div>Pets Page
+        <PetsShow />
+      </div>
     )
   }
 };
